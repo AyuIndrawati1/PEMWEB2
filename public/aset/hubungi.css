@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(118, 181, 237);
+    margin: 0;
+  }
+  
+  #formKontak {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    max-width: 95%;
+  }
+  
+  #formKontak label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  #formKontak input[type="text"],
+  #formKontak select {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  #formKontak input[type="text"]:focus,
+  #formKontak select:focus {
+    outline: none;
+    border-color: #55acee; /* Warna fokus Twitter blue */
+    box-shadow: 0 0 5px rgba(85, 172, 238, 0.5);
+  }
+  
+  #formKontak br {
+    display: none;
+  }
+  
+  #btnKirimWA {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #btnKirimWA:hover {
+    background-color: blue;
+  }
+  
+  #btnKirimWA:focus {
+    outline: none;
+    box-shadow: 0 0 5px blue;
+  }

@@ -5,11 +5,9 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-
-$routes->get('/About', 'Page::about');
-$routes->get('/Contact', 'Page::contact');
-$routes->get('/Faqs', 'Page::faqs');
-$routes->get('/Biodata', 'Page::biodata');
-$routes->get('/Tos', 'Page::tos');
-$routes->setAutoRoute(false);
+$routes->get('/', 'Profil::home');
+$routes->get('pemweb', 'Profil::pemweb');
+$routes->get('sim', 'Profil::sim');
+$routes->get('visda', 'Profil::visda');
+$routes->get('mbd', 'Profil::mbd');
+$routes->get('hubungi', 'Profil::hubungi');

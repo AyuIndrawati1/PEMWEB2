@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 20px;
+    background: rgb(184, 214, 239);
+  }
+  h1 {
+    color: #000000;
+    text-align:left ;
+  }
+  
+  h2 {
+    color: #160617;
+  }
+  
+  ul, ol {
+    line-height: 1.6;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #3714e6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: 1px solid #000000;
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: blue;
+    color: rgb(255, 252, 252);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
